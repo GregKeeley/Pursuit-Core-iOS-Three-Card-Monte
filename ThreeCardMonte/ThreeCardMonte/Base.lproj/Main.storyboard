@@ -54,8 +54,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select a Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSh-5g-N4h">
-                                <rect key="frame" x="137" y="573" width="144" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSh-5g-N4h">
+                                <rect key="frame" x="149" y="573" width="120" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -69,12 +69,13 @@
                         <outlet property="cardLeft" destination="4wy-U7-GLU" id="AvK-c0-QIw"/>
                         <outlet property="cardMiddle" destination="WMd-SL-qVE" id="a0o-j3-S1A"/>
                         <outlet property="cardRight" destination="H0n-gH-D4L" id="m8D-4r-gRc"/>
+                        <outlet property="newGame" destination="WSh-5g-N4h" id="sDc-fK-HgR"/>
                         <outlet property="playerMessage" destination="WSh-5g-N4h" id="yYS-Ev-rsE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194" y="76"/>
+            <point key="canvasLocation" x="-19" y="-36"/>
         </scene>
     </scenes>
     <resources>

@@ -15,10 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardRight: UIButton!
     @IBOutlet weak var playerMessage: UILabel!
     
-    let images = ["cardBackRed.png",
+    var cards = ["cardBackRed.png",
                   "kingCard.jpg",
                   "threeCard.png"]
-    
     
     @IBAction func cardSelect(_ sender: UIButton) {
         let cardSelection: (bgColor: UIColor?, winLose: String)
@@ -30,11 +29,15 @@ class ViewController: UIViewController {
         case 2:
             cardSelection = (.green, "Correct!")
         default:
-            break
+            cardSelection = (.white, "ERROR")
             
         }
         view.backgroundColor = cardSelection.bgColor
         playerMessage.text = cardSelection.winLose
+    }
+    
+    @IBAction func newGame() {
+        cards.shuffle()
     }
     
     override func viewDidLoad() {
